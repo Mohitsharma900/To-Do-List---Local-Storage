@@ -58,11 +58,47 @@ input::placeholder{
     color: aliceblue;
     font-size: 30px;
     align-self: center;
-    
 }
 
+.material-icons{
+    cursor: pointer;
+}
 
 /* Main */
 
+.tasks_pending{
+    border:solid 2px #ffffff;
+    height: 50vh;
+    margin: 1%;
+    margin-top: 5%;
+    width: 40%;
+    border-radius: 15px;
+    color:#FFF8F3;
+    background-color: slategray ;
+    padding: 20px;
+    padding-right: 20px;
+    overflow-y:scroll;
+}
+
+.tasks_pending::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.delete-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+}
+
+.tasks_pending li{
+    list-style: decimal;
+    display: flex;
+    justify-content: space-between;
+    border: solid 3px #FFF8F3;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 5px;
+}
 
 /* Footer */
