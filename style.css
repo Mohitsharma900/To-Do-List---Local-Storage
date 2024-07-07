@@ -11,25 +11,56 @@
 /* Temporary */ 
 
 body{
-    /* background-color: #212121; */
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgb(190, 190, 190) 0%, rgb(102, 100, 100) 93%, rgb(105, 105, 105) 100%);
+    background-color: #405D72;
 }
 
 /* Header */
 
+input::placeholder{
+    color: aliceblue;
+}
+
 .header{
     width: 100;
     margin:1%;
-    border-radius: 10px;
-    background: rgb(0,0,0);
-    background: linear-gradient(to right, rgba(0,0,0,0.75) 100%, rgba(236,192,15,1) 85%);
+}
+
+.input-text{
+    display: block;
+    position: absolute;
+    width: 98vw;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    padding-left: 70px;
+    color: rgb(235, 227, 227);
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #758694 ;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .header img {
+    position: relative;
     margin-left: 1%;
+    margin-top: 5px;
     height: 40px;
 }
+
+.main-li{
+    display: flex;
+}
+
+.main-li i {
+    display: flex;
+    position: absolute;
+    right: 3%;
+    color: aliceblue;
+    font-size: 30px;
+    align-self: center;
+    
+}
+
 
 /* Main */
 
