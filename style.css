@@ -67,11 +67,11 @@ input::placeholder{
 /* Main */
 
 .tasks_pending{
-    border:solid 2px #ffffff;
-    height: 50vh;
+    /* border:solid 2px #ffffff; */
+    height: 60vh;
     margin: 1%;
-    margin-top: 5%;
-    width: 40%;
+    margin-top: 2%;
+    width: 50%;
     border-radius: 15px;
     color:#FFF8F3;
     background-color: slategray ;
@@ -89,16 +89,63 @@ input::placeholder{
     height: 24px;
     width: 24px;
     position: relative;
+    margin-left: 15px;
 }
 
 .tasks_pending li{
     list-style: decimal;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: solid 3px #FFF8F3;
     border-radius: 10px;
     margin-top: 2%;
     padding: 5px;
 }
 
+
+/* task completed */
+
+.tasks_completed{
+    /* border:solid 2px #ffffff; */
+    height: 60vh;
+    margin: 1%;
+    margin-top: 2%;
+    width: 50%;
+    border-radius: 15px;
+    color:#FFF8F3;
+    background-color: slategray ;
+    padding: 20px;
+    padding-right: 20px;
+    overflow-y:scroll;
+}
+
+.tasks_completed li {
+    
+        list-style: decimal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: solid 3px #FFF8F3;
+        border-radius: 10px;
+        margin-top: 2%;
+        padding: 5px;
+    
+}
+
+.tasks_completed::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick_icon{
+    height: 28px;
+    width: 24px;
+    position: relative;
+}
 /* Footer */
